@@ -12,7 +12,7 @@ import {
   FooterNav,
 } from './footer.style';
 import { data } from 'common/data/AgencyDigital';
-import logo from 'common/assets/image/agencyDigital/logo.png';
+import logo from 'https://res.cloudinary.com/scriptword/image/upload/v1654473726/common/assets/image/agencyDigital/logo_qbjjvb.png';
 
 const Footer = () => {
   return (

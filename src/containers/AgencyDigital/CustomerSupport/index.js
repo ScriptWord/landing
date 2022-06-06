@@ -15,7 +15,7 @@ import SectionWrapper, {
   ListGroup,
 } from './customerSupport.style';
 import { data } from 'common/data/AgencyDigital';
-import illustration from 'common/assets/image/agencyDigital/illustration.png';
+import illustration from 'https://res.cloudinary.com/scriptword/image/upload/v1654473725/common/assets/image/agencyDigital/illustration_byvjgy.png';
 
 const CustomerSupport = () => {
   return (

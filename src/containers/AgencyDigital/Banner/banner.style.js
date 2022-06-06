@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { rgba } from 'polished';
 import { themeGet } from '@styled-system/theme-get';
-import illustration from 'common/assets/image/agencyDigital/banner_1.png';
+import illustration from 'https://res.cloudinary.com/scriptword/image/upload/v1654473726/common/assets/image/agencyDigital/banner_1_iomo01.png';
 
 const Section = styled.section``;
 

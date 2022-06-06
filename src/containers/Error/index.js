@@ -9,7 +9,7 @@ import Text from 'common/components/Text';
 import NextImage from 'common/components/NextImage';
 import Button from 'common/components/Button';
 import Heading from 'common/components/Heading';
-import ErrorImage from 'common/assets/image/404.svg';
+import ErrorImage from 'https://res.cloudinary.com/scriptword/image/upload/v1654473725/common/assets/image/404_fioto5.svg';
 import ErrorWrapper, { ErrorContent, ButtonWrapper } from './error.style';
 
 const ErrorSec = ({ imageWrapper, title, text, reloadButton, homeButton }) => {

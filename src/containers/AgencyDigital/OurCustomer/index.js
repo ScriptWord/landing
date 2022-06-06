@@ -7,7 +7,7 @@ import Heading from 'common/components/Heading';
 import Text from 'common/components/Text';
 import NextImage from 'common/components/NextImage';
 import Link from 'common/components/Link';
-import ourCustomer from 'common/assets/image/agencyDigital/ourCustomer.png';
+import ourCustomer from 'https://res.cloudinary.com/scriptword/image/upload/v1654473727/common/assets/image/agencyDigital/ourCustomer_ojdfvk.png';
 import Section, { SectionHeading, ContentWrapper } from './ourCustomer.style';
 
 const OurCustomer = () => {

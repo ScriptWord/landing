@@ -15,7 +15,7 @@ import NavbarWrapper, {
   MobileMenu,
   NavbarRight,
 } from './navbar.style';
-import LogoImage from 'common/assets/image/agencyDigital/logo-5.png';
+import LogoImage from 'https://res.cloudinary.com/scriptword/image/upload/v1654473726/common/assets/image/agencyDigital/logo-5_lz1qln.png';
 
 
 import { data } from 'common/data/AgencyDigital';
