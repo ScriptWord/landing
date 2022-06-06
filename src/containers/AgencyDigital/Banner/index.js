@@ -13,9 +13,9 @@ import Section, {
   ImageGroup,
 } from './banner.style';
 
-import paypal from 'https://res.cloudinary.com/scriptword/image/upload/v1654473727/common/assets/image/agencyDigital/paypal_u7fbzd.png';
-import google from 'https://res.cloudinary.com/scriptword/image/upload/v1654473725/common/assets/image/agencyDigital/google_nnhysw.png';
-import dropbox from 'https://res.cloudinary.com/scriptword/image/upload/v1654473725/common/assets/image/agencyDigital/dropbox_yt5brn.png';
+import paypal from 'common/assets/image/agencyDigital/paypal.png';
+import google from 'common/assets/image/agencyDigital/google.png';
+import dropbox from 'common/assets/image/agencyDigital/dropbox.png';
 
 const Banner = () => {
   return (

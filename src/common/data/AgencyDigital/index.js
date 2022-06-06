@@ -1,15 +1,15 @@
-import serviceIcon1 from 'https://res.cloudinary.com/scriptword/image/upload/v1654473728/common/assets/image/agencyDigital/services/regular_vax4nr.png';
-import serviceIcon2 from 'https://res.cloudinary.com/scriptword/image/upload/v1654473728/common/assets/image/agencyDigital/services/immigration_nxp7ao.png';
-import serviceIcon3 from 'https://res.cloudinary.com/scriptword/image/upload/v1654473728/common/assets/image/agencyDigital/services/business_mtbt1b.png';
-import serviceIcon4 from 'https://res.cloudinary.com/scriptword/image/upload/v1654473728/common/assets/image/agencyDigital/services/legal_yh7nvw.png';
-import serviceIcon5 from 'https://res.cloudinary.com/scriptword/image/upload/v1654473728/common/assets/image/agencyDigital/services/website_amaal3.png';
-import serviceIcon6 from 'https://res.cloudinary.com/scriptword/image/upload/v1654473729/common/assets/image/agencyDigital/services/technical_ijy6ts.png';
-import support1 from 'https://res.cloudinary.com/scriptword/image/upload/v1654473728/common/assets/image/agencyDigital/support1_qbjlfg.png';
-import support2 from 'https://res.cloudinary.com/scriptword/image/upload/v1654473728/common/assets/image/agencyDigital/support2_xmf8lh.png';
-import news1 from 'https://res.cloudinary.com/scriptword/image/upload/v1654473727/common/assets/image/agencyDigital/news/1_qoqgjo.png';
-import news2 from 'https://res.cloudinary.com/scriptword/image/upload/v1654473727/common/assets/image/agencyDigital/news/2_mbrd9o.png';
-import news3 from 'https://res.cloudinary.com/scriptword/image/upload/v1654473727/common/assets/image/agencyDigital/news/3_m1gxfl.png';
-import news4 from 'https://res.cloudinary.com/scriptword/image/upload/v1654473727/common/assets/image/agencyDigital/news/4_wyhktj.png';
+import serviceIcon1 from '../../assets/image/agencyDigital/services/regular.png';
+import serviceIcon2 from '../../assets/image/agencyDigital/services/immigration.png';
+import serviceIcon3 from '../../assets/image/agencyDigital/services/business.png';
+import serviceIcon4 from '../../assets/image/agencyDigital/services/legal.png';
+import serviceIcon5 from '../../assets/image/agencyDigital/services/website.png';
+import serviceIcon6 from '../../assets/image/agencyDigital/services/technical.png';
+import support1 from '../../assets/image/agencyDigital/support1.png';
+import support2 from '../../assets/image/agencyDigital/support2.png';
+import news1 from '../../assets/image/agencyDigital/news/1.png';
+import news2 from '../../assets/image/agencyDigital/news/2.png';
+import news3 from '../../assets/image/agencyDigital/news/3.png';
+import news4 from '../../assets/image/agencyDigital/news/4.png';
 
 export const data = {
   navItems: [
