@@ -15,7 +15,7 @@ import NavbarWrapper, {
   MobileMenu,
   NavbarRight,
 } from './navbar.style';
-import LogoImage from 'public/logo-5.png';
+import LogoImage from 'common/assets/image/agencyDigital/logo-5.png';
 
 
 import { data } from 'common/data/AgencyDigital';
@@ -54,14 +54,14 @@ const Navbar = () => {
             menuItems={data.navItems}
             offset={-84}
           />
-          {/* <NavbarRight>
+          <NavbarRight>
             <li>
               <Link href="#">support@scriptword.ca</Link>
             </li>
             <li>
               <Link href="#">+14168972720</Link>
             </li>
-          </NavbarRight> */}
+          </NavbarRight>
           {/* end of main menu */}
 
           <Button

@@ -8,12 +8,15 @@ const ImageWrapper = styled('img')(
     display: 'block',
     maxWidth: '100%',
     height: 'auto',
+    unoptimized:'true'
   },
   base,
   themed('Image')
 );
 
 const Image = ({ src, alt, ...props }) => (
+  console.log('in image src:'+{src}),
+  console.log('in image props:'+{...props}),
   <ImageWrapper src={src} alt={alt} {...props} />
 );
 
@@ -27,3 +30,5 @@ Image.propTypes = {
 Image.defaultProps = {
   m: 0,
 };
+
+

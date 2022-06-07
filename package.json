@@ -18,8 +18,12 @@
     "@redq/reuse-modal": "^1.1.9",
     "@styled-system/theme-get": "^5.1.2",
     "animate.css": "^4.1.1",
+    "extracted-loader": "^1.0.7",
+    "file-loader": "^6.2.0",
     "firebase-admin": "^9.6.0",
     "firebase-functions": "^3.13.2",
+    "ignore-loader": "^0.1.2",
+    "img-loader": "^4.0.0",
     "next": "^11.1.4",
     "next-compose-plugins": "^2.2.1",
     "next-fonts": "1.5.1",
@@ -59,7 +63,8 @@
     "react-tsparticles": "^1.42.1",
     "styled-components": "^5.2.1",
     "styled-system": "5.1.5",
-    "swiper": "^7.0.6"
+    "swiper": "^7.0.6",
+    "url-loader": "^4.1.1"
   },
   "devDependencies": {
     "babel-plugin-styled-components": "^1.11.1",
