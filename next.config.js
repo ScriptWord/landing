@@ -4,8 +4,8 @@ const nextConfig = {
   // distDir: '../../dist/functions/next'
   images: {
     domains: ['pbs.twimg.com'],
-    //loader: 'cloudinary',
-    //path: 'https://res.cloudinary.com/scriptword/'
+    loader: 'cloudinary',
+    path: 'https://res.cloudinary.com/scriptword/'
   },
 };
 //const nextConfig = { images: { domains: ['https://res.cloudinary.com','pbs.twimg.com'], loader: 'cloudinary', path: '', }, }
