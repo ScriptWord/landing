@@ -5,7 +5,7 @@ import { rgba } from 'polished';
 
 import Container from 'common/components/UI/ContainerTwo';
 import NextImage from 'common/components/NextImage';
-import illustration from 'common/assets/image/agencyDigital/support_illustration.png';
+import illustration from 'public/support_illustration.png';
 import { data } from 'common/data/AgencyDigital';
 import Section, {
   ContentWrapper,

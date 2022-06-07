@@ -13,9 +13,9 @@ import Section, {
   ImageGroup,
 } from './banner.style';
 
-import paypal from 'common/assets/image/agencyDigital/paypal.png';
-import google from 'common/assets/image/agencyDigital/google.png';
-import dropbox from 'common/assets/image/agencyDigital/dropbox.png';
+import paypal from 'public/paypal.png';
+import google from 'public/google.png';
+import dropbox from 'public/dropbox.png';
 
 const Banner = () => {
   return (
