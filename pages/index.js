@@ -27,7 +27,7 @@ const AgencyDigital = () => {
           <title>ScriptWord | Translation Services</title>
           <meta name="theme-color" content="#FF825C" />
           <meta name="Description" content="React next landing page" />
-
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"></link>
           {/* Load google fonts */}
           <link
             rel="stylesheet"

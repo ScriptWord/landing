@@ -59,7 +59,7 @@ const Navbar = () => {
               <Link href="#">support@scriptword.ca</Link>
             </li>
             <li>
-              <Link href="#">+14168972720</Link>
+              <Link href="#">+1-123-456-7890</Link>
             </li>
           </NavbarRight>
           {/* end of main menu */}
