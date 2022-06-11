@@ -5,7 +5,7 @@ import Rheostat from 'rheostat';
 import 'rheostat/initialize';
 
 const handleChange = (props) => {
-  console.log(props, 'current range value');
+  //console.log(props, 'current range value');
 };
 
 //Main Component

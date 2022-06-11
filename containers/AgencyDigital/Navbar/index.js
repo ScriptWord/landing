@@ -41,7 +41,7 @@ const Navbar = () => {
     <NavbarWrapper className="agencyModern-navbar navbar">
       <Container>
         <Logo
-          href="/agencydigital"
+          href="/"
           logoSrc={LogoImage}
           title="ScriptWord"
           className="main-logo"

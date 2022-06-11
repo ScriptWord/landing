@@ -18,8 +18,8 @@ const Service = () => {
       <Container>
         <Zoom>
           <SectionHeading
-            slogan="We Provide Translation Service for over 80 Languages"
-            title="Our team of native translators and industry experts can cater to all your translation needs."
+            slogan="Certified Professional Translation Services for over 80+ Languages"
+            title="Our team of native translators and industry experts can cater to all your translation needs, whether you are an individual or a Multinational Company."
           />
         </Zoom>
         <ServiceWrapper>

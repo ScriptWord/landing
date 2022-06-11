@@ -26,7 +26,7 @@ const Banner = () => {
           <BannerContent>
             <Heading
               as="h1"
-              content="Professional Translators For Canadians"
+              content="Professional Translation Service For Canadians"
             />
 
             <Text

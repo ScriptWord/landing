@@ -14,7 +14,7 @@ const BlogPost = ({ className, thumbUrl, title, excerpt, link }) => {
   return (
     <div className={addAllClasses.join(' ')}>
       <div className="thumbnail">
-        <NextImage src={thumbUrl} alt={title} />
+        <NextImage src={thumbUrl} alt={title} width = '128' height = '128' />
       </div>
       <div className="content">
         <h3 className="title">{title}</h3>

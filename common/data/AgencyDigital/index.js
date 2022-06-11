@@ -1,22 +1,24 @@
-import serviceIcon1 from '../../assets/image/agencyDigital/services/regular.png';
-import serviceIcon2 from '../../assets/image/agencyDigital/services/immigration.png';
-import serviceIcon3 from '../../assets/image/agencyDigital/services/business.png';
-import serviceIcon4 from '../../assets/image/agencyDigital/services/legal.png';
-import serviceIcon5 from '../../assets/image/agencyDigital/services/website.png';
-import serviceIcon6 from '../../assets/image/agencyDigital/services/technical.png';
-import support1 from '../../assets/image/agencyDigital/support1.png';
-import support2 from '../../assets/image/agencyDigital/support2.png';
+import serviceIcon1 from '../../assets/image/agencyDigital/services/translation-2.png';
+import serviceIcon11 from '../../assets/image/agencyDigital/services/cert-2.svg';
+import serviceIcon2 from '../../assets/image/agencyDigital/services/passport-1.svg';
+import serviceIcon3 from '../../assets/image/agencyDigital/services/business-1.svg';
+import serviceIcon4 from '../../assets/image/agencyDigital/services/legal-1.png';
+import serviceIcon5 from '../../assets/image/agencyDigital/services/website-1.png';
+import serviceIcon6 from '../../assets/image/agencyDigital/services/technical-2.svg';
+import support1 from '../../assets/image/agencyDigital/services/email-1.png';
+import support2 from '../../assets/image/agencyDigital/services/phone.png';
 import news1 from '../../assets/image/agencyDigital/news/1.png';
 import news2 from '../../assets/image/agencyDigital/news/2.png';
 import news3 from '../../assets/image/agencyDigital/news/3.png';
 import news4 from '../../assets/image/agencyDigital/news/4.png';
+import NavItem from 'common/components/Navitem/navitem';
 
 
 export const data = {
   navItems: [
     {
       label: 'Home',
-      path: '#home',
+      path: '/',
       offset: '70',
     },
     {
@@ -47,34 +49,42 @@ export const data = {
       title: 'Regular Translations',
       desc:
         'Documents like Driver\'s license, Passports, Work/Education Documents etc',
-      link: '#',
+      link: '/regulartranslation',
     },
     {
       id: 2,
-      icon: serviceIcon2,
-      title: 'Immigration Related Translations',
+      icon: serviceIcon11,
+      title: 'Certified Translations',
       desc:
-        'Documents like Birth Certificates, Marriage Certificates, Police Certificates, Diploma etc',
+        'With Free certificates of accuracy, every time',
       link: '#',
     },
     {
       id: 3,
+      icon: serviceIcon2,
+      title: 'Immigration Translations',
+      desc:
+        'Documents like Birth Certificates, Marriage Certificates, Police Certificates, Diploma etc as required by IRCC, USCIS',
+      link: '#',
+    },
+    {
+      id: 4,
       icon: serviceIcon3,
-      title: 'Business Documents Translations',
+      title: 'Business Translations',
       desc:
         'Documents like Company Profile, Business Proposals, Marketing Material, ECommerce Documents etc',
       link: '#',
     },
     {
-      id: 4,
+      id: 5,
       icon: serviceIcon4,
-      title: 'Legal Documents Translations',
+      title: 'Legal Translations',
       desc:
         'Documents like Contracts, Affidavits, Court Orders, Patents etc',
       link: '#',
     },
     {
-      id: 5,
+      id: 6,
       icon: serviceIcon5,
       title: 'Website and App Translations',
       desc:
@@ -82,13 +92,14 @@ export const data = {
       link: '#',
     },
     {
-      id: 6,
+      id: 7,
       icon: serviceIcon6,
       title: 'Technical Translations',
       desc:
         'Medical Translations like medical records, medical evidence etc',
       link: '#',
     },
+    
   ],
   workHardList: [
     { id: 1, title: 'Best Rates' },
