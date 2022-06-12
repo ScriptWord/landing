@@ -380,27 +380,27 @@ export const data = {
     {
       id: 1,
       title: 'Home',
-      link: '#',
+      link: '/#home',
     },
     {
       id: 2,
       title: 'Services',
-      link: '#',
+      link: '/#service',
     },
     {
       id: 3,
       title: 'Languages',
-      link: '#',
+      link: '/#service',
     },
     {
       id: 4,
       title: 'Get A Quote',
-      link: '#',
+      link: '/#service',
     },
     {
       id: 5,
       title: 'FAQ',
-      link: '#',
+      link: '/#service',
     },
   ],
 };

@@ -22,7 +22,6 @@ const Footer = () => {
           {data.footer.map((item) => (
             <Fade key={item.id} up delay={100 * item.id}>
               <FooterWidget key={item.id}>
-                <h4>{item.title}</h4>
                 <ul>
                   {item.list.map((item) => (
                     <li className="widgetListItem" key={item.id}>
@@ -41,7 +40,9 @@ const Footer = () => {
           </Copyright>
           <FooterNav>
             {data.footerNav.map((item) => (
-              <li key={item.id}>{item.title}</li>
+              <li className="widgetListItem" key={item.id}>
+              <a href={item.link}>{item.title}</a>
+            </li>
             ))}
           </FooterNav>
           <div>
