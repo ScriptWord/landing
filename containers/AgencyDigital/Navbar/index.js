@@ -103,21 +103,16 @@ const Navbar = () => {
           >
             {data.navItems.map((menu, index) => (
               <li key={`menu_key${index}`}>
-                <AnchorLink
+                <a
                   href={menu.path}
                   offset={menu.offset}
                   onClick={handleHandleMenuClose}
                 >
                   {menu.label}
-                </AnchorLink>
+                </a>
               </li>
             ))}
-            <li>
-              <Link href="#">Login</Link>
-            </li>
-            <li>
-              <Link href="#">Get Started</Link>
-            </li>
+           
           </Scrollspy>
         </Container>
       </MobileMenu>
