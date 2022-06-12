@@ -2,6 +2,9 @@ import React, { useContext } from 'react';
 import PropTypes from 'prop-types';
 import Scrollspy from 'react-scrollspy';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
+import { Link } from "react-router-dom";
+import { Route } from 'react-router-dom'
+
 
 import { DrawerContext } from '../../contexts/DrawerContext';
 
@@ -23,6 +26,7 @@ const ScrollSpyMenu = ({ className, menuItems, drawerClose, ...props }) => {
     addAllClasses.push(className);
   }
 
+  
   // Close drawer when click on menu item
   const toggleDrawer = () => {
     dispatch({
@@ -37,24 +41,17 @@ const ScrollSpyMenu = ({ className, menuItems, drawerClose, ...props }) => {
       drawerClose={drawerClose}
       {...props}
     >
-      {menuItems.map((menu, index) => (
+       {menuItems.map((menu, index) => (
         <li key={`menu-item-${index}`}>
           {menu.staticLink ? (
-            <a href={menu.path}>{menu.label}</a>
-          ) : (
+            <a
+              href='www.google.com'>{menu.lable}</a>
+     ) : (
             <>
               {drawerClose ? (
-                <AnchorLink
-                  href={menu.path}
-                  offset={menu.offset}
-                  onClick={toggleDrawer}
-                >
-                  {menu.label}
-                </AnchorLink>
+                <a href={menu.path} onClick={toggleDrawer}>{menu.label}</a>
               ) : (
-                <AnchorLink href={menu.path} offset={menu.offset}>
-                  {menu.label}
-                </AnchorLink>
+                <a href={menu.path}>{menu.label}</a>
               )}
             </>
           )}

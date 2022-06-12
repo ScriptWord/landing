@@ -11,34 +11,34 @@ import news1 from '../../assets/image/agencyDigital/news/1.png';
 import news2 from '../../assets/image/agencyDigital/news/2.png';
 import news3 from '../../assets/image/agencyDigital/news/3.png';
 import news4 from '../../assets/image/agencyDigital/news/4.png';
-import NavItem from 'common/components/Navitem/navitem';
+
 
 
 export const data = {
   navItems: [
     {
       label: 'Home',
-      path: '/',
+      path: '/#home',
       offset: '70',
     },
     {
       label: 'Service',
-      path: '#service',
+      path: '/#service',
       offset: '70',
     },
     {
       label: 'Languages',
-      path: '#pricing',
+      path: '/#service',
       offset: '70',
     },
     {
       label: 'About',
-      path: '#our-customer',
+      path: '/#service',
       offset: '70',
     },
     {
       label: 'Blog',
-      path: '#blog',
+      path: '/#service',
       offset: '70',
     },
   ],
