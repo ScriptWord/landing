@@ -5,10 +5,12 @@
   "main": "firebaseFunctions.js",
   "scripts": {
     "dev": "next",
-    "build": "next build && next export",
+    "build": "next build",
+    "export": "next export",
+    "build-export": "next build && next export",
     "start": "next start",
-    "serve": "npm run build && firebase emulators:start --only functions,hosting",
-    "shell": "npm run build && firebase functions:shell",
+    "serve": "npm run build-export && firebase emulators:start --only functions,hosting",
+    "shell": "npm run build-export && firebase functions:shell",
     "deploy": "firebase deploy --only functions,hosting",
     "logs": "firebase functions:log"
   },
