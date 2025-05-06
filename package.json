@@ -3,12 +3,15 @@
   "version": "11.0.1",
   "private": true,
   "main": "firebaseFunctions.js",
+  "packageManager": "yarn@1.22.19",
   "scripts": {
     "dev": "next",
-    "build": "next build && next export",
+    "build": "next build",
+    "export": "next export",
+    "build-export": "next build && next export",
     "start": "next start",
-    "serve": "npm run build && firebase emulators:start --only functions,hosting",
-    "shell": "npm run build && firebase functions:shell",
+    "serve": "npm run build-export && firebase emulators:start --only functions,hosting",
+    "shell": "npm run build-export && firebase functions:shell",
     "deploy": "firebase deploy --only functions,hosting",
     "logs": "firebase functions:log"
   },

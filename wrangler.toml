@@ -1,0 +1,15 @@
+[vars]
+NODE_OPTIONS = "--openssl-legacy-provider"
+
+[build]
+command = "yarn build && yarn export"
+
+[build.environment]
+NODE_OPTIONS = "--openssl-legacy-provider"
+
+# This is the key configuration Cloudflare Pages needs
+[site]
+bucket = "out"
+
+# Tell Cloudflare Pages where to find the build output
+pages_build_output_dir = "out" 
