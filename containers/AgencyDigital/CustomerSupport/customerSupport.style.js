@@ -26,6 +26,16 @@ export const Section = styled.div`
 export const Illustration = styled.figure`
   width: 55%;
   margin: 0 5% 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  img {
+    max-width: 100%;
+    object-fit: contain;
+    height: auto;
+  }
+  
   @media only screen and (max-width: 768px) {
     margin-bottom: 30px;
     width: 100%;

@@ -17,11 +17,11 @@ const masonryOptions = {
 
 const News = () => {
   return (
-    <Section id="blog">
+    <Section id="news">
       <Container>
         <SectionHeading
-          slogan="Ideal solutions for you"
-          title="Go beyond ultimate features"
+          slogan="Latest News & Articles"
+          title="Translation Industry Insights"
         />
         <ContentWrapper>
           <Masonry className="masonryGrid" options={masonryOptions}>

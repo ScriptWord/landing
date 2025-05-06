@@ -16,7 +16,7 @@ import Section, {
 
 const Support = () => {
   return (
-    <Section>
+    <Section id="support">
       <Container>
         <ContentWrapper>
           <Content>

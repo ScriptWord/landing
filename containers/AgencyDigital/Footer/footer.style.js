@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { rgba } from 'polished';
 
 export const Section = styled.footer`
-  background-color: #f9fafc;
+  background-color: #ffffff;
   padding: 45px 0 0;
   @media screen and (max-width: 1440px) {
     padding: 70px 0 20px;
@@ -39,6 +39,14 @@ export const FooterWidget = styled.div`
   &:last-child {
     margin-right: 0;
   }
+  
+  h4 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #02073e;
+    margin-bottom: 10px;
+  }
+  
   .widgetListItem {
     a {
       color: ${rgba('#02073e', 0.8)};
@@ -53,13 +61,12 @@ export const FooterWidget = styled.div`
 
 export const FooterBottom = styled.div`
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  text-align: center;
   border-top: 1px solid #d9e0e7;
   padding: 20px 0;
-  @media screen and (max-width: 768px) {
-    flex-direction: column;
-  }
 `;
 
 export const Copyright = styled.p`
@@ -68,17 +75,14 @@ export const Copyright = styled.p`
   line-height: 18px;
   margin: 0;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  @media screen and (max-width: 480px) {
-    flex-direction: column;
-  }
+  text-align: center;
   img {
-    margin-right: 15px;
-    max-width: 130px;
-    @media screen and (max-width: 480px) {
-      margin-right: 0;
-      margin-bottom: 15px;
-    }
+    margin-bottom: 15px;
+    max-width: 150px;
+    max-height: 50px;
+    object-fit: contain;
   }
 `;
 

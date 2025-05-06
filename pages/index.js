@@ -15,8 +15,8 @@ import Service from 'containers/AgencyDigital/Service';
 import CustomerSupport from 'containers/AgencyDigital/CustomerSupport';
 import Pricing from 'containers/AgencyDigital/Pricing';
 import Support from 'containers/AgencyDigital/Support';
-import OurCustomer from 'containers/AgencyDigital/OurCustomer';
 import News from 'containers/AgencyDigital/News';
+import Authorities from 'containers/AgencyDigital/Authorities';
 import Footer from 'containers/AgencyDigital/Footer';
 
 const AgencyDigital = () => {
@@ -44,10 +44,11 @@ const AgencyDigital = () => {
           </Sticky>
           <Banner />
           <Service />
-          
+          <CustomerSupport />
+          <Pricing />
+          <Authorities />
           <Support />
-          <OurCustomer />
-          
+          <News />
           <Footer />
         </ContentWrapper>
       </Fragment>

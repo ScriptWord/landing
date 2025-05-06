@@ -15,7 +15,7 @@ import SectionWrapper, {
   ListGroup,
 } from './customerSupport.style';
 import { data } from 'common/data/AgencyDigital';
-import illustration from 'public/illustration.png';
+import illustration from 'common/assets/image/agencyDigital/illustration_2.png';
 
 const CustomerSupport = () => {
   return (
@@ -23,14 +23,14 @@ const CustomerSupport = () => {
       <Container>
         <Section>
           <Illustration>
-            <NextImage src={illustration} alt="Illustration" />
+            <NextImage src={illustration} alt="Translation Services Illustration" />
           </Illustration>
           <Content>
             <Heading
               as="h2"
-              content="Customer support is our main priority with their hundred percent satisfaction."
+              content="Precise translations with the nuance and cultural context you need"
             />
-            <Text content="Get your tests delivered at let home collect sample from the victory of the managements that supplies best design system guidelines ever." />
+            <Text content="Our certified translators are native speakers who understand both the language and cultural nuances, ensuring your message is conveyed exactly as intended in any language." />
             <ListGroup>
               {data.workHardList.map((item) => (
                 <List

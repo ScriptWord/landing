@@ -16,12 +16,36 @@ const NavbarWrapper = styled.header`
     display: flex;
     align-items: center;
   }
+`;
+
+export const LogoContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+  
   .main-logo {
-    min-width: 145px;
-    max-width: 145px;
+    min-width: 220px;
+    max-width: 240px;
+    display: flex;
+    align-items: center;
+    
     img {
       width: 100%;
       height: auto;
+      object-fit: contain;
+      max-height: 80px;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .main-logo {
+      min-width: 180px;
+      max-width: 200px;
+      
+      img {
+        max-height: 60px;
+      }
     }
   }
 `;

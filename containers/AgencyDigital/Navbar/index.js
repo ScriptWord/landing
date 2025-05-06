@@ -14,8 +14,9 @@ import NavbarWrapper, {
   MenuArea,
   MobileMenu,
   NavbarRight,
+  LogoContainer,
 } from './navbar.style';
-import LogoImage from 'common/assets/image/agencyDigital/logo-5.png';
+import LogoImage from 'common/assets/image/agencyDigital/logo-7.png';
 
 
 import { data } from 'common/data/AgencyDigital';
@@ -40,12 +41,20 @@ const Navbar = () => {
   return (
     <NavbarWrapper className="agencyModern-navbar navbar">
       <Container>
-        <Logo
-          href="/"
-          logoSrc={LogoImage}
-          title="ScriptWord"
-          className="main-logo"
-        />
+        <LogoContainer>
+          <Logo
+            href="/"
+            logoSrc={LogoImage}
+            title="ScriptWord"
+            className="main-logo"
+            logoStyle={{
+              width: '100%',
+              height: 'auto',
+              objectFit: 'contain',
+              maxHeight: '80px',
+            }}
+          />
+        </LogoContainer>
         {/* end of logo */}
 
         <MenuArea>
@@ -56,10 +65,10 @@ const Navbar = () => {
           />
           <NavbarRight>
             <li>
-              <Link href="#">support@scriptword.ca</Link>
+              <Link href="mailto:support@scriptword.ca">support@scriptword.ca</Link>
             </li>
             <li>
-              <Link href="#">+1-123-456-7890</Link>
+              <Link href="tel:+11234567890">+1-123-456-7890</Link>
             </li>
           </NavbarRight>
           {/* end of main menu */}

@@ -12,7 +12,7 @@ import Section, { SectionHeading, ContentWrapper } from './ourCustomer.style';
 
 const OurCustomer = () => {
   return (
-    <Section id="our-customer">
+    <Section id="customer">
       <Container>
         <ContentWrapper>
           <SectionHeading>

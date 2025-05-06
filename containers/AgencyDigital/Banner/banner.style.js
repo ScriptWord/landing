@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { rgba } from 'polished';
 import { themeGet } from '@styled-system/theme-get';
-import illustration from 'common/assets/image/agencyDigital/banner_1.png';
+import illustration from 'common/assets/image/agencyDigital/banner_2.png';
 
 const Section = styled.section``;
 
@@ -147,7 +147,7 @@ export const Subscribe = styled.div`
         opacity: 1; /* Firefox */
       }
       &:focus {
-        border-color: #ff825c;
+        border-color: #3563E9;
       }
 
       @media only screen and (max-width: 1280px) {
@@ -156,67 +156,13 @@ export const Subscribe = styled.div`
     }
   }
   button {
-    background-color: #ff825c;
+    background-color: #3563E9;
     min-width: 150px;
     border-radius: 8px;
 
     @media only screen and (max-width: 480px) {
       min-width: 100%;
       margin-top: 15px;
-    }
-  }
-`;
-
-export const SponsoredBy = styled.div`
-  display: flex;
-  align-items: center;
-  margin-top: 40px;
-  @media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1.5) {
-    display: block;
-  }
-  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-    display: block;
-    margin-top: 25px;
-  }
-  @media only screen and (max-width: 1440px) {
-    margin-top: 30px;
-  }
-  @media only screen and (max-width: 768px) {
-    margin-top: 30px;
-    text-align: center;
-    justify-content: center;
-  }
-
-  @media only screen and (max-width: 480px) {
-    align-items: flex-start;
-    flex-direction: column;
-  }
-
-  .sponsoredBy {
-    color: ${rgba('#566272', 0.6)};
-    font-size: 16px;
-    margin-right: 21px;
-    margin-bottom: 0;
-    @media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1.5) {
-      margin: 0 0 20px 0;
-    }
-    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-      margin: 0 0 15px 0;
-    }
-    @media only screen and (max-width: 480px) {
-      margin-bottom: 15px;
-    }
-  }
-`;
-
-export const ImageGroup = styled.div`
-  gap: 23px;
-  display: grid;
-  grid-template-columns: repeat(3, auto);
-  align-items: center;
-  img {
-    @media only screen and (max-width: 480px) {
-      max-width: 27%;
     }
   }
 `;

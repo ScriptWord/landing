@@ -27,18 +27,18 @@ export const data = {
       offset: '70',
     },
     {
-      label: 'Languages',
-      path: '/#service',
+      label: 'Support',
+      path: '/#support',
       offset: '70',
     },
     {
-      label: 'About',
-      path: '/#service',
+      label: 'Authorities',
+      path: '/#authorities',
       offset: '70',
     },
     {
       label: 'Blog',
-      path: '/#service',
+      path: '/#news',
       offset: '70',
     },
   ],
@@ -57,7 +57,7 @@ export const data = {
       title: 'Certified Translations',
       desc:
         'With Free certificates of accuracy, every time',
-      link: '#',
+      link: '/certified-translations',
     },
     {
       id: 3,
@@ -65,7 +65,7 @@ export const data = {
       title: 'Immigration Translations',
       desc:
         'Documents like Birth Certificates, Marriage Certificates, Police Certificates, Diploma etc as required by IRCC, USCIS',
-      link: '#',
+      link: '/immigration-translations',
     },
     {
       id: 4,
@@ -73,7 +73,7 @@ export const data = {
       title: 'Business Translations',
       desc:
         'Documents like Company Profile, Business Proposals, Marketing Material, ECommerce Documents etc',
-      link: '#',
+      link: '/business-translations',
     },
     {
       id: 5,
@@ -81,7 +81,7 @@ export const data = {
       title: 'Legal Translations',
       desc:
         'Documents like Contracts, Affidavits, Court Orders, Patents etc',
-      link: '#',
+      link: '/legal-translations',
     },
     {
       id: 6,
@@ -89,7 +89,7 @@ export const data = {
       title: 'Website and App Translations',
       desc:
         'Localize your websites, Apps , Graphics Elements, Design etc ',
-      link: '#',
+      link: '/website-app-translations',
     },
     {
       id: 7,
@@ -97,15 +97,15 @@ export const data = {
       title: 'Technical Translations',
       desc:
         'Medical Translations like medical records, medical evidence etc',
-      link: '#',
+      link: '/technical-translations',
     },
     
   ],
   workHardList: [
-    { id: 1, title: 'Best Rates' },
-    { id: 2, title: 'High Quality' },
-    { id: 3, title: 'Speed' },
-    { id: 4, title: 'Customer Support' },
+    { id: 1, title: 'Competitive Pricing' },
+    { id: 2, title: 'Certified Accuracy' },
+    { id: 3, title: 'Quick Turnaround' },
+    { id: 4, title: 'Multilingual Support' },
   ],
   pricing: [
     {
@@ -301,42 +301,68 @@ export const data = {
         {
           id: 1,
           title: 'About',
-          link: '#',
+          link: '/#about',
         },
         {
           id: 2,
-          title: 'Affiliate',
-          link: '#',
+          title: 'Services',
+          link: '/#service',
         },
         {
           id: 3,
-          title: 'Careers & Culture',
-          link: '#',
+          title: 'Authorities',
+          link: '/#authorities',
         },
         {
           id: 4,
           title: 'Blog',
-          link: '#',
+          link: '/#news',
         },
         {
           id: 5,
-          title: 'Press',
-          link: '#',
+          title: 'Support',
+          link: '/#support',
         },
       ],
     },
     {
       id: 2,
-      title: 'About Us',
+      title: 'Services',
       list: [
         {
           id: 1,
-          title: 'Customer Support',
+          title: 'Regular Translations',
+          link: '/regulartranslation',
+        },
+        {
+          id: 2,
+          title: 'Certified Translations',
+          link: '/certified-translations',
+        },
+        {
+          id: 3,
+          title: 'Immigration Translations',
+          link: '/immigration-translations',
+        },
+        {
+          id: 4,
+          title: 'Business Translations',
+          link: '/business-translations',
+        },
+      ],
+    },
+    {
+      id: 3,
+      title: 'Legal',
+      list: [
+        {
+          id: 1,
+          title: 'Privacy Policy',
           link: '#',
         },
         {
           id: 2,
-          title: 'About Us',
+          title: 'Terms & Conditions',
           link: '#',
         },
         {
@@ -344,37 +370,34 @@ export const data = {
           title: 'Copyright',
           link: '#',
         },
-        
+        {
+          id: 4,
+          title: 'Affiliate',
+          link: '#',
+        },
       ],
     },
     {
-      id: 3,
-      title: 'Our Information',
+      id: 4,
+      title: 'Contact',
       list: [
         {
           id: 1,
-          title: 'Legal',
-          link: '#',
+          title: 'Email: support@scriptword.ca',
+          link: 'mailto:support@scriptword.ca',
         },
         {
           id: 2,
-          title: 'Privacy Policy',
-          link: '#',
+          title: 'Phone: +1-123-456-7890',
+          link: 'tel:+11234567890',
         },
         {
           id: 3,
-          title: 'Terms & Conditions',
-          link: '#',
+          title: 'Get A Quote',
+          link: '/#home',
         },
-        {
-          id: 4,
-          title: 'Site Map',
-          link: '#',
-        },
-        
       ],
     },
-    
   ],
   footerNav: [
     {
@@ -389,18 +412,18 @@ export const data = {
     },
     {
       id: 3,
-      title: 'Languages',
-      link: '/#service',
+      title: 'Authorities',
+      link: '/#authorities',
     },
     {
       id: 4,
       title: 'Get A Quote',
-      link: '/#service',
+      link: '/#home',
     },
     {
       id: 5,
       title: 'FAQ',
-      link: '/#service',
+      link: '/#support',
     },
   ],
 };
