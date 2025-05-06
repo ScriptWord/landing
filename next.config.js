@@ -9,7 +9,16 @@ const nextConfig = {
     loader: 'custom',
     //path: 'https://res.cloudinary.com/scriptword/image/upload/v1654574659/'
   },
+  // Add this to support static exports
+  trailingSlash: true,
+  exportPathMap: async function() {
+    return {
+      '/': { page: '/' },
+      // Add other routes as needed
+    };
+  },
 };
+
 const config = withPlugins(
   [
     [
@@ -22,5 +31,6 @@ const config = withPlugins(
   ],
   nextConfig
 );
+
 //const nextConfig = { images: { domains: ['https://res.cloudinary.com','pbs.twimg.com'], loader: 'cloudinary', path: '', }, }
-module.exports = withPlugins([], nextConfig);
+module.exports = config; // Use the correctly composed config
